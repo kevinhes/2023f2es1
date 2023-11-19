@@ -2,3 +2,13 @@
 
 @import './base/base';
 @import './base/fontstyle';
+
+// components
+@import'./components/navbar';
+@import'./components/button';
+
+@import './layout/layout';
+@import './layout/header';
+
+@import './helpers/utili/utili';
+@import './helpers/helper';

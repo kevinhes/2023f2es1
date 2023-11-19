@@ -1,0 +1,31 @@
+.header-navbar {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 60px;
+  padding-right: 60px;
+  position: relative;
+  z-index: 300;
+  height: 113px;
+  padding-top: 40px;
+  padding-bottom: 13px;
+  margin-bottom: 331px;
+}
+
+.header-navbar-bg {
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  right: 0;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  column-gap: 40px;
+}
+
+.nav-link {
+  padding-top: 7px;
+  padding-bottom: 7px;
+  display: block;
+}

@@ -1,0 +1,81 @@
+.banner-header {
+  height: 960px;
+  // height: 100vh;
+  position: relative;
+}
+
+.banner-header-bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.slogan-before {
+  position: absolute;
+  width: 100%;
+  z-index: 200;
+  bottom: 0%;
+  height: 200px;
+  :first-child {
+    left: 22%;
+    transform: rotate(-5deg);
+    bottom: 43%;
+  }
+  :last-child {
+    left:51%;
+    transform: rotate(-5deg);
+    bottom: 51%
+  }
+}
+
+.slogan-main {
+  position: absolute;
+  width: 100%;
+  z-index: 200;
+  bottom: 0%;
+  height: 200px;
+  .before {
+    left: 30%;
+    bottom: 23%;
+    transform: rotate(-20deg);
+  }
+
+  .main {
+    left: 45%;
+    transform: rotate(7deg);
+    bottom: 8%;
+  }
+
+  .after {
+    left:78%;
+    transform: rotate(-5deg);
+    bottom: 5%;
+  }
+}
+
+.slogan-after {
+  position: absolute;
+  width: 100%;
+  z-index: 200;
+  bottom: 0%;
+  height: 250px;
+  .before {
+    left: 14%;
+    bottom: 3%;
+    transform: rotate(4deg);
+  }
+
+  .main {
+    left: 62%;
+    transform: rotate(11deg);
+    bottom: 12%;
+  }
+
+  .after {
+    left:69%;
+    bottom: 29%;
+    transform: rotate(7deg);
+  }
+}

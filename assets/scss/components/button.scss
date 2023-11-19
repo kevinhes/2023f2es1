@@ -1,0 +1,19 @@
+.btn {
+  padding: 16px;
+  border-radius: 40px;
+}
+
+.btn-normal {
+  background-color: $btnnormal;
+  color: $primary;
+}
+
+.btn-light {
+  background-color: $btnlight;
+  color: $primary;
+}
+
+.btn-bright {
+  background-color: $btnbright;
+  color: $primary;
+}
